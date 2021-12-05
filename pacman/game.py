@@ -21,6 +21,10 @@ class Game:
         self.clock = pygame.time.Clock()
         self.running = True
         self.state = 'start'
+        self.cell_width = WIDTH//28
+        self.cell_height = HEIGHT//30
+        
+        self._load()
 
     def run(self):
         while self.running:
@@ -28,8 +32,13 @@ class Game:
                 self._start_events()
                 self._start_update()
                 self._start_draw()
+            
+            elif self.state =='play':
+                self._play_events()
+                self._play_update()
+                self._play_draw()
             else:
-                pass
+                self.running = False
 
             self.clock.tick(FPS)
 
@@ -55,6 +64,18 @@ class Game:
             pos[1] = pos[1] - message_size[1]//2
         
         self.screen.blit(message, pos)
+        
+    def _load(self):
+        maze_path = os.path.join(self.dirname, "dependencies/images/background.png")
+        self.background = pygame.image.load(maze_path)
+        self.background = pygame.transform.scale(self.background, (WIDTH, HEIGHT))
+        
+    def _draw_grid(self):
+        for x in range(WIDTH//self.cell_width):
+            pygame.draw.line(self.screen, GREY, (x*self.cell_width, 0), (x*self.cell_width, HEIGHT))
+            
+        for x in range(HEIGHT//self.cell_height):
+            pygame.draw.line(self.screen, GREY, (0, x*self.cell_height), (WIDTH, x*self.cell_height))
 
     # ========= START FUNCTIONS ========= #
 
@@ -92,9 +113,29 @@ class Game:
                     START_FONT)
 
         self.render_text('HIGH SCORE',
-                    [WIDTH//2, HEIGHT//2 + 144],
-                    START_TEXT_SIZES['CREATED'],
-                    START_TEXT_COLORS['CREATED'],
+                    [WIDTH//2 - 100, 0],
+                    START_TEXT_SIZES['HIGH_SCORE'],
+                    START_TEXT_COLORS['HIGH_SCORE'],
                     START_FONT, center=False)
         
         pygame.display.update()
+
+    # ========= PLAY FUNCTIONS ========= #
+
+    def _play_events(self):
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                self.running = False
+
+            if event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
+                self.state = 'play'
+
+    def _play_update(self):
+        pass
+
+    def _play_draw(self):
+        self.screen.blit(self.background, (0, 0))
+        self._draw_grid()
+        pygame.display.update()
+        
+        
