@@ -1,0 +1,385 @@
+Game: 1, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 2, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 3, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 4, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 5, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 6, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 7, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 8, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 9, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 10, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 11, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 12, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 13, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 14, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 15, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 16, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 17, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 18, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 19, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 20, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 21, Score: 1, 'Record: 1
+Figure(640x480)
+Game: 22, Score: 0, 'Record: 1
+Figure(640x480)
+Game: 23, Score: 1, 'Record: 1
+Figure(640x480)
+Game: 24, Score: 1, 'Record: 1
+Figure(640x480)
+Game: 25, Score: 0, 'Record: 1
+Figure(640x480)
+Game: 26, Score: 0, 'Record: 1
+Figure(640x480)
+Game: 27, Score: 0, 'Record: 1
+Figure(640x480)
+Game: 28, Score: 1, 'Record: 1
+Figure(640x480)
+Game: 29, Score: 0, 'Record: 1
+Figure(640x480)
+Game: 30, Score: 0, 'Record: 1
+Figure(640x480)
+Game: 31, Score: 0, 'Record: 1
+Figure(640x480)
+Game: 32, Score: 0, 'Record: 1
+Figure(640x480)
+Game: 33, Score: 0, 'Record: 1
+Figure(640x480)
+Game: 34, Score: 0, 'Record: 1
+Figure(640x480)
+Game: 35, Score: 0, 'Record: 1
+Figure(640x480)
+Game: 36, Score: 0, 'Record: 1
+Figure(640x480)
+Game: 37, Score: 0, 'Record: 1
+Figure(640x480)
+Game: 38, Score: 0, 'Record: 1
+Figure(640x480)
+Game: 39, Score: 0, 'Record: 1
+Figure(640x480)
+Game: 40, Score: 0, 'Record: 1
+Figure(640x480)
+Game: 41, Score: 0, 'Record: 1
+Figure(640x480)
+Game: 42, Score: 0, 'Record: 1
+Figure(640x480)
+Game: 43, Score: 0, 'Record: 1
+Figure(640x480)
+PS C:\Satwik\mydir\dev> & C:/Users/Satwik/anaconda3/python.exe c:/Satwik/mydir/dev/Python/projects/AiPlaysGames/snake/agent.py
+pygame 2.1.0 (SDL 2.0.16, Python 3.8.8)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+c:\Satwik\mydir\dev\Python\projects\AiPlaysGames\snake\model.py:39: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  ..\torch\csrc\utils\tensor_new.cpp:201.)
+  state = torch.tensor(state, dtype=torch.float)
+Game: 1, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 2, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 3, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 4, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 5, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 6, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 7, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 8, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 9, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 10, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 11, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 12, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 13, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 14, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 15, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 16, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 17, Score: 1, 'Record: 1
+Figure(640x480)
+Game: 18, Score: 0, 'Record: 1
+Figure(640x480)
+Game: 19, Score: 0, 'Record: 1
+Figure(640x480)
+Game: 20, Score: 0, 'Record: 1
+Figure(640x480)
+Game: 21, Score: 0, 'Record: 1
+Figure(640x480)
+Game: 22, Score: 0, 'Record: 1
+Figure(640x480)
+PS C:\Satwik\mydir\dev> & C:/Users/Satwik/anaconda3/python.exe c:/Satwik/mydir/dev/Python/projects/AiPlaysGames/snake/agent.py
+pygame 2.1.0 (SDL 2.0.16, Python 3.8.8)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+c:\Satwik\mydir\dev\Python\projects\AiPlaysGames\snake\model.py:39: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  ..\torch\csrc\utils\tensor_new.cpp:201.)
+  state = torch.tensor(state, dtype=torch.float)
+Game: 1, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 2, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 3, Score: 0, 'Record: 0
+Figure(640x480)
+Game: 4, Score: 1, 'Record: 1
+Figure(640x480)
+Game: 5, Score: 1, 'Record: 1
+Figure(604x470)
+Game: 6, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 7, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 8, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 9, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 10, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 11, Score: 1, 'Record: 1
+Figure(604x470)
+Game: 12, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 13, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 14, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 15, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 16, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 17, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 18, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 19, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 20, Score: 1, 'Record: 1
+Figure(604x470)
+Game: 21, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 22, Score: 1, 'Record: 1
+Figure(604x470)
+Game: 23, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 24, Score: 1, 'Record: 1
+Figure(604x470)
+Game: 25, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 26, Score: 1, 'Record: 1
+Figure(604x470)
+Game: 27, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 28, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 29, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 30, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 31, Score: 1, 'Record: 1
+Figure(604x470)
+Game: 32, Score: 1, 'Record: 1
+Figure(604x470)
+Game: 33, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 34, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 35, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 36, Score: 1, 'Record: 1
+Figure(604x470)
+Game: 37, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 38, Score: 1, 'Record: 1
+Figure(604x470)
+Game: 39, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 40, Score: 1, 'Record: 1
+Figure(604x470)
+Game: 41, Score: 1, 'Record: 1
+Figure(604x470)
+Game: 42, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 43, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 44, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 45, Score: 1, 'Record: 1
+Figure(604x470)
+Game: 46, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 47, Score: 1, 'Record: 1
+Figure(604x470)
+Game: 48, Score: 1, 'Record: 1
+Figure(604x470)
+Game: 49, Score: 1, 'Record: 1
+Figure(604x470)
+Game: 50, Score: 1, 'Record: 1
+Figure(604x470)
+Game: 51, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 52, Score: 1, 'Record: 1
+Figure(604x470)
+Game: 53, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 54, Score: 1, 'Record: 1
+Figure(604x470)
+Game: 55, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 56, Score: 1, 'Record: 1
+Figure(604x470)
+Game: 57, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 58, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 59, Score: 0, 'Record: 1
+Figure(604x470)
+Game: 60, Score: 1, 'Record: 1
+Figure(604x470)
+Game: 61, Score: 1, 'Record: 1
+Figure(604x470)
+Game: 62, Score: 4, 'Record: 4
+Figure(604x470)
+Game: 63, Score: 1, 'Record: 4
+Figure(604x470)
+Game: 64, Score: 1, 'Record: 4
+Figure(604x470)
+Game: 65, Score: 1, 'Record: 4
+Figure(604x470)
+Game: 66, Score: 1, 'Record: 4
+Figure(604x470)
+Game: 67, Score: 2, 'Record: 4
+Figure(604x470)
+Game: 68, Score: 0, 'Record: 4
+Figure(604x470)
+Game: 69, Score: 1, 'Record: 4
+Figure(604x470)
+Game: 70, Score: 4, 'Record: 4
+Figure(604x470)
+Game: 71, Score: 0, 'Record: 4
+Figure(604x470)
+Game: 72, Score: 0, 'Record: 4
+Figure(604x470)
+Game: 73, Score: 0, 'Record: 4
+Figure(604x470)
+Game: 74, Score: 0, 'Record: 4
+Figure(604x470)
+Game: 75, Score: 0, 'Record: 4
+Figure(604x470)
+Game: 76, Score: 0, 'Record: 4
+Figure(604x470)
+Game: 77, Score: 2, 'Record: 4
+Figure(604x470)
+Game: 78, Score: 0, 'Record: 4
+Figure(604x470)
+Game: 79, Score: 0, 'Record: 4
+Figure(604x470)
+Game: 80, Score: 3, 'Record: 4
+Figure(604x470)
+Game: 81, Score: 0, 'Record: 4
+Figure(604x470)
+Game: 82, Score: 0, 'Record: 4
+Figure(604x470)
+Game: 83, Score: 0, 'Record: 4
+Figure(604x470)
+Game: 84, Score: 0, 'Record: 4
+Figure(604x470)
+Game: 85, Score: 1, 'Record: 4
+Figure(604x470)
+Game: 86, Score: 0, 'Record: 4
+Figure(604x470)
+Game: 87, Score: 2, 'Record: 4
+Figure(604x470)
+Game: 88, Score: 0, 'Record: 4
+Figure(604x470)
+Game: 89, Score: 1, 'Record: 4
+Figure(604x470)
+Game: 90, Score: 1, 'Record: 4
+Figure(604x470)
+Game: 91, Score: 0, 'Record: 4
+Figure(604x470)
+Game: 92, Score: 0, 'Record: 4
+Figure(604x470)
+Game: 93, Score: 1, 'Record: 4
+Figure(604x470)
+Game: 94, Score: 0, 'Record: 4
+Figure(604x470)
+Game: 95, Score: 0, 'Record: 4
+Figure(604x470)
+Game: 96, Score: 1, 'Record: 4
+Figure(604x470)
+Game: 97, Score: 0, 'Record: 4
+Figure(604x470)
+Game: 98, Score: 0, 'Record: 4
+Figure(604x470)
+Game: 99, Score: 0, 'Record: 4
+Figure(604x470)
+Game: 100, Score: 0, 'Record: 4
+Figure(604x470)
+Game: 101, Score: 9, 'Record: 9
+Figure(604x470)
+Game: 102, Score: 0, 'Record: 9
+Figure(604x470)
+Game: 103, Score: 7, 'Record: 9
+Figure(604x470)
+Game: 104, Score: 0, 'Record: 9
+Figure(604x470)
+Game: 105, Score: 28, 'Record: 28
+Figure(604x470)
+Game: 106, Score: 10, 'Record: 28
+Figure(604x470)
+Game: 107, Score: 14, 'Record: 28
+Figure(604x470)
+Game: 108, Score: 2, 'Record: 28
+Figure(604x470)
+Game: 109, Score: 25, 'Record: 28
+Figure(604x470)
+Game: 110, Score: 32, 'Record: 32
+Figure(604x470)
+Game: 111, Score: 57, 'Record: 57
+Figure(604x470)
+Game: 112, Score: 17, 'Record: 57
+Figure(604x470)
+Game: 113, Score: 26, 'Record: 57
+Figure(604x470)
+Game: 114, Score: 43, 'Record: 57
+Figure(604x470)
+Game: 115, Score: 48, 'Record: 57
+Figure(604x470)
+Game: 116, Score: 28, 'Record: 57
+Figure(604x470)
+Game: 117, Score: 76, 'Record: 76
+Figure(604x470)
+Game: 118, Score: 64, 'Record: 76
+Figure(604x470)
+Game: 119, Score: 42, 'Record: 76
+Figure(604x470)
+Game: 120, Score: 45, 'Record: 76
+Figure(604x470)
+
+
+==================== RECORD ====================
+Game: 117, Score: 76, 'Record: 76
+Figure(604x470)

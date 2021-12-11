@@ -26,7 +26,7 @@ BLACK = (0,0,0)
 BLOCK_SIZE = 20
 SPEED = 8
 
-class SnakeGame:
+class Game:
     
     def __init__(self, w=1280, h=720):
         self.w = w
@@ -133,7 +133,7 @@ class SnakeGame:
             
 
 if __name__ == '__main__':
-    game = SnakeGame()
+    game = Game()
     
     # game loop
     while True:
